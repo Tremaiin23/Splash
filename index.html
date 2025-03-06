@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onematch - Betting Exchange</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="splash-container">
+    <h1 class="logo">1nematch</h1>
+    <div class="progress-bar"></div>
+    <a href="https://tremaiin23.github.io/App-intro/" class="proceed-button">Proceed</a>
+    <p class="tagline">Next generation of betting</p>
+    <p class="age-restriction">Only 18 years+ are allowed to bet</p>
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const progressBar = document.querySelector('.progress-bar');
+      const proceedButton = document.querySelector('.proceed-button');
+      
+      // Wait for progress animation to complete
+      setTimeout(() => {
+        proceedButton.classList.add('visible');
+      }, 20000); // 20 seconds
+    });
+  </script>
+</body>
+</html>
